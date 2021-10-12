@@ -1,5 +1,5 @@
-import { createApp } from 'vue'
 import  Dashboard from './components/Dashboard.vue'
+import { createApp } from 'vue'
 
 
 const mount = (el) => {
