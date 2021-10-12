@@ -24,7 +24,7 @@ jobs:
         with:
           # yarn cache files are stored in `~/.yarn` on Linux/macOS
           path: ~/.yarn
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn-lock.json') }}
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
